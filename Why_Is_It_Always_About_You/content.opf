@@ -1,0 +1,290 @@
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uuid_id" prefix="calibre: https://calibre-ebook.com">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata">
+    <dc:title id="id">Why Is It Always About You?</dc:title>
+    <dc:creator id="id-1">Sandy Hotchkiss</dc:creator>
+    <dc:identifier>kobo:why-is-it-always-about-you</dc:identifier>
+    <dc:identifier>isbn:9781439106532</dc:identifier>
+    <dc:identifier>amazon:0743214285</dc:identifier>
+    <dc:identifier>google:MhtOg2SyPFIC</dc:identifier>
+    <dc:identifier>goodreads:423271</dc:identifier>
+    <dc:identifier>calibre:4360</dc:identifier>
+    <dc:identifier>uuid:a063f169-d677-463b-ad2d-c73118626d34</dc:identifier>
+    <dc:identifier id="uuid_id">uuid:a063f169-d677-463b-ad2d-c73118626d34</dc:identifier>
+    <dc:language>en</dc:language>
+    <dc:contributor id="id-2">calibre (5.15.0) [https://calibre-ebook.com]</dc:contributor>
+    <dc:subject>Psychotherapy</dc:subject>
+    <dc:subject>Psychopathology</dc:subject>
+    <dc:subject>Psychology</dc:subject>
+    <dc:subject>Mental Health</dc:subject>
+    <dc:subject>Interpersonal Relationships</dc:subject>
+    <dc:subject>Health &amp; Well Being</dc:subject>
+    <dc:subject>Nonfiction</dc:subject>
+    <dc:subject>Communication</dc:subject>
+    <dc:subject>Self Help</dc:subject>
+    <dc:subject>21st Century</dc:subject>
+    <dc:subject>Narcissism</dc:subject>
+    <dc:subject>Family &amp; Relationships</dc:subject>
+    <opf:meta refines="#id" property="title-type">main</opf:meta>
+    <opf:meta refines="#id" property="file-as">Why Is It Always About You?</opf:meta>
+    <meta name="cover" content="cover"/>
+    <meta property="dcterms:modified" scheme="dcterms:W3CDTF">2021-04-12T06:56:04Z</meta>
+    <opf:meta refines="#id-2" property="role" scheme="marc:relators">bkp</opf:meta>
+    <opf:meta refines="#id-1" property="role" scheme="marc:relators">aut</opf:meta>
+    <opf:meta refines="#id-1" property="file-as">Hotchkiss, Sandy</opf:meta>
+    <opf:meta property="calibre:author_link_map">{"Sandy Hotchkiss": ""}</opf:meta>
+    <opf:meta property="calibre:user_metadata">{
+  "#ddc": {
+    "#extra#": null,
+    "#value#": null,
+    "category_sort": "value",
+    "colnum": 12,
+    "column": "value",
+    "datatype": "text",
+    "display": {},
+    "is_category": true,
+    "is_csp": false,
+    "is_custom": true,
+    "is_editable": true,
+    "is_multiple": null,
+    "is_multiple2": {},
+    "kind": "field",
+    "label": "ddc",
+    "link_column": "value",
+    "name": "DDC",
+    "rec_index": 22,
+    "search_terms": [
+      "#ddc"
+    ],
+    "table": "custom_column_12"
+  },
+  "#fast": {
+    "#extra#": null,
+    "#value#": [],
+    "category_sort": "value",
+    "colnum": 13,
+    "column": "value",
+    "datatype": "text",
+    "display": {},
+    "is_category": true,
+    "is_csp": false,
+    "is_custom": true,
+    "is_editable": true,
+    "is_multiple": "|",
+    "is_multiple2": {
+      "cache_to_list": "|",
+      "list_to_ui": ", ",
+      "ui_to_list": ","
+    },
+    "kind": "field",
+    "label": "fast",
+    "link_column": "value",
+    "name": "FAST Tags",
+    "rec_index": 23,
+    "search_terms": [
+      "#fast"
+    ],
+    "table": "custom_column_13"
+  },
+  "#formats": {
+    "#extra#": null,
+    "#value#": "EPUB",
+    "category_sort": "value",
+    "colnum": 11,
+    "column": "value",
+    "datatype": "composite",
+    "display": {
+      "composite_sort": "text",
+      "composite_template": "{:'re(approximate_formats(), ',', ', ')'}",
+      "contains_html": false,
+      "description": "",
+      "make_category": false,
+      "use_decorations": 0
+    },
+    "is_category": false,
+    "is_csp": false,
+    "is_custom": true,
+    "is_editable": true,
+    "is_multiple": null,
+    "is_multiple2": {},
+    "kind": "field",
+    "label": "formats",
+    "link_column": "value",
+    "name": "Formats",
+    "rec_index": 24,
+    "search_terms": [
+      "#formats"
+    ],
+    "table": "custom_column_11"
+  },
+  "#gfog": {
+    "#extra#": null,
+    "#value#": 14.996273718554134,
+    "category_sort": "value",
+    "colnum": 1,
+    "column": "value",
+    "datatype": "float",
+    "display": {
+      "description": "",
+      "number_format": "{0:.1f}"
+    },
+    "is_category": false,
+    "is_csp": false,
+    "is_custom": true,
+    "is_editable": true,
+    "is_multiple": null,
+    "is_multiple2": {},
+    "kind": "field",
+    "label": "gfog",
+    "link_column": "value",
+    "name": "Gunning Fog",
+    "rec_index": 25,
+    "search_terms": [
+      "#gfog"
+    ],
+    "table": "custom_column_1"
+  },
+  "#lcead": {
+    "#extra#": null,
+    "#value#": [],
+    "category_sort": "value",
+    "colnum": 14,
+    "column": "value",
+    "datatype": "text",
+    "display": {},
+    "is_category": true,
+    "is_csp": false,
+    "is_custom": true,
+    "is_editable": true,
+    "is_multiple": "|",
+    "is_multiple2": {
+      "cache_to_list": "|",
+      "list_to_ui": ", ",
+      "ui_to_list": ","
+    },
+    "kind": "field",
+    "label": "lcead",
+    "link_column": "value",
+    "name": "LC Extra Author Details",
+    "rec_index": 26,
+    "search_terms": [
+      "#lcead"
+    ],
+    "table": "custom_column_14"
+  },
+  "#pages": {
+    "#extra#": null,
+    "#value#": null,
+    "category_sort": "value",
+    "colnum": 2,
+    "column": "value",
+    "datatype": "int",
+    "display": {
+      "description": "",
+      "number_format": "{0:,d}"
+    },
+    "is_category": false,
+    "is_csp": false,
+    "is_custom": true,
+    "is_editable": true,
+    "is_multiple": null,
+    "is_multiple2": {},
+    "kind": "field",
+    "label": "pages",
+    "link_column": "value",
+    "name": "Pages",
+    "rec_index": 27,
+    "search_terms": [
+      "#pages"
+    ],
+    "table": "custom_column_2"
+  },
+  "#words": {
+    "#extra#": null,
+    "#value#": 55488,
+    "category_sort": "value",
+    "colnum": 10,
+    "column": "value",
+    "datatype": "int",
+    "display": {
+      "description": "Words",
+      "number_format": "{0:,d}"
+    },
+    "is_category": false,
+    "is_csp": false,
+    "is_custom": true,
+    "is_editable": true,
+    "is_multiple": null,
+    "is_multiple2": {},
+    "kind": "field",
+    "label": "words",
+    "link_column": "value",
+    "name": "Words",
+    "rec_index": 28,
+    "search_terms": [
+      "#words"
+    ],
+    "table": "custom_column_10"
+  }
+}</opf:meta>
+  </metadata>
+  <manifest>
+    <item id="titlepage" href="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg calibre:title-page"/>
+    <item id="id21" href="OEBPS/Text/part0008.html" media-type="application/xhtml+xml"/>
+    <item id="id35" href="OEBPS/Text/part0009.html" media-type="application/xhtml+xml"/>
+    <item id="id38" href="OEBPS/Text/part0010.html" media-type="application/xhtml+xml"/>
+    <item id="id5" href="OEBPS/Text/part0011.html" media-type="application/xhtml+xml"/>
+    <item id="id37" href="OEBPS/Text/part0012.html" media-type="application/xhtml+xml"/>
+    <item id="id30" href="OEBPS/Text/part0013.html" media-type="application/xhtml+xml"/>
+    <item id="id11" href="OEBPS/Text/part0014.html" media-type="application/xhtml+xml"/>
+    <item id="id8" href="OEBPS/Text/part0015.html" media-type="application/xhtml+xml"/>
+    <item id="id22" href="OEBPS/Text/part0016.html" media-type="application/xhtml+xml"/>
+    <item id="id18" href="OEBPS/Text/part0017.html" media-type="application/xhtml+xml"/>
+    <item id="id15" href="OEBPS/Text/part0018.html" media-type="application/xhtml+xml"/>
+    <item id="id6" href="OEBPS/Text/part0019.html" media-type="application/xhtml+xml"/>
+    <item id="id10" href="OEBPS/Text/part0020.html" media-type="application/xhtml+xml"/>
+    <item id="id28" href="OEBPS/Text/part0021.html" media-type="application/xhtml+xml"/>
+    <item id="id34" href="OEBPS/Text/part0022.html" media-type="application/xhtml+xml"/>
+    <item id="id31" href="OEBPS/Text/part0023.html" media-type="application/xhtml+xml"/>
+    <item id="id3" href="OEBPS/Text/part0024.html" media-type="application/xhtml+xml"/>
+    <item id="id27" href="OEBPS/Text/part0025.html" media-type="application/xhtml+xml"/>
+    <item id="id9" href="OEBPS/Text/part0026.html" media-type="application/xhtml+xml"/>
+    <item id="id7" href="OEBPS/Text/part0027.html" media-type="application/xhtml+xml"/>
+    <item id="id16" href="OEBPS/Text/part0028.html" media-type="application/xhtml+xml"/>
+    <item id="id23" href="OEBPS/Text/part0029.html" media-type="application/xhtml+xml"/>
+    <item id="id36" href="OEBPS/Text/part0030.html" media-type="application/xhtml+xml"/>
+    <item id="id32" href="OEBPS/Text/part0031.html" media-type="application/xhtml+xml"/>
+    <item id="id29" href="OEBPS/Text/part0032.html" media-type="application/xhtml+xml"/>
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="page_css" href="page_styles.css" media-type="text/css"/>
+    <item id="css" href="stylesheet.css" media-type="text/css"/>
+    <item id="cover" href="cover1.jpeg" media-type="image/jpeg" properties="cover-image"/>
+  </manifest>
+  <spine>
+    <itemref idref="titlepage"/>
+    <itemref idref="id21"/>
+    <itemref idref="id35"/>
+    <itemref idref="id38"/>
+    <itemref idref="id5"/>
+    <itemref idref="id37"/>
+    <itemref idref="id30"/>
+    <itemref idref="id11"/>
+    <itemref idref="id8"/>
+    <itemref idref="id22"/>
+    <itemref idref="id18"/>
+    <itemref idref="id15"/>
+    <itemref idref="id6"/>
+    <itemref idref="id10"/>
+    <itemref idref="id28"/>
+    <itemref idref="id34"/>
+    <itemref idref="id31"/>
+    <itemref idref="id3"/>
+    <itemref idref="id27"/>
+    <itemref idref="id9"/>
+    <itemref idref="id7"/>
+    <itemref idref="id16"/>
+    <itemref idref="id23"/>
+    <itemref idref="id36"/>
+    <itemref idref="id32"/>
+    <itemref idref="id29"/>
+  </spine>
+</package>
