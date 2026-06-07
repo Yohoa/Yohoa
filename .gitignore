@@ -1,0 +1,9 @@
+# Generated TTS / audiobook artifacts (large, reproducible — keep out of git)
+tts_models/
+*.wav
+*.mp3
+*.m4b
+*.m4a
+
+# Throwaway extracted text used for TTS tests
+ch1_en.txt
