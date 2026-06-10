@@ -1,0 +1,100 @@
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="p9781134613083" version="3.0" prefix="calibre: https://calibre-ebook.com">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title id="id">Healing the Fragmented Selves of Trauma Survivors: Overcoming Internal Self-Alienation</dc:title>
+    <dc:creator id="id-2">Janina Fisher</dc:creator>
+    <dc:format>292 Pages</dc:format>
+    <dc:identifier>google:NJ40DgAAQBAJ</dc:identifier>
+    <dc:identifier>isbn:9781134613083</dc:identifier>
+    <dc:identifier>calibre:6843</dc:identifier>
+    <dc:identifier>uuid:1caf8d8e-73e8-4102-95dc-1840efab74f0</dc:identifier>
+    <dc:identifier id="p9781134613083">4813485</dc:identifier>
+    <dc:coverage>New York</dc:coverage>
+    <dc:coverage>London</dc:coverage>
+    <dc:type>Text</dc:type>
+    <dc:language>en</dc:language>
+    <dc:contributor id="id-1">calibre (3.31.0) [https://calibre-ebook.com]</dc:contributor>
+    <dc:date>2017-02-24T05:00:00+00:00</dc:date>
+    <dc:description>&lt;p class="description"&gt;Healing the Fragmented Selves of Trauma Survivors integrates a neurobiologically informed understanding of trauma, dissociation, and attachment with a practical approach to treatment, all communicated in straightforward language accessible to both client and therapist. Readers will be exposed to a model that emphasizes "resolution"—a transformation in the relationship to one’s self, replacing shame, self-loathing, and assumptions of guilt with compassionate acceptance. Its unique interventions have been adapted from a number of cutting-edge therapeutic approaches, including Sensorimotor Psychotherapy, Internal Family Systems, mindfulness-based therapies, and clinical hypnosis. Readers will close the pages of Healing the Fragmented Selves of Trauma Survivors with a solid grasp of therapeutic approaches to traumatic attachment, working with undiagnosed dissociative symptoms and disorders, integrating "right brain-to-right brain" treatment methods, and much more. Most of all, they will come away with tools for helping clients create an internal sense of safety and compassionate connection to even their most dis-owned selves.&lt;/p&gt;</dc:description>
+    <dc:publisher>Routledge</dc:publisher>
+    <opf:meta refines="#id" property="title-type">main</opf:meta>
+    <opf:meta refines="#id" property="file-as">Healing the Fragmented Selves of Trauma Survivors: Overcoming Internal Self-Alienation</opf:meta>
+    <meta property="dcterms:modified">2016-09-21T20:00:00Z</meta>
+    <meta content="cover-image" name="cover"/>
+    <opf:meta property="role" refines="#id-1" scheme="marc:relators">bkp</opf:meta>
+    <opf:meta property="role" refines="#id-2" scheme="marc:relators">aut</opf:meta>
+    <opf:meta property="file-as" refines="#id-2">Fisher, Janina</opf:meta>
+    <opf:meta property="calibre:author_link_map">{"Janina Fisher": ""}</opf:meta>
+  </metadata>
+  <manifest>
+    <item href="xhtml/cover.xhtml" id="cover" media-type="application/xhtml+xml"/>
+    <item href="xhtml/B03_halftitle.xhtml" id="fB03_halftitle" media-type="application/xhtml+xml"/>
+    <item href="xhtml/B04_titlepage.xhtml" id="fB04_titlepage" media-type="application/xhtml+xml"/>
+    <item href="xhtml/B05_copyright.xhtml" id="fB05_copyright" media-type="application/xhtml+xml"/>
+    <item href="xhtml/B06_ded.xhtml" id="fB06_ded" media-type="application/xhtml+xml"/>
+    <item href="xhtml/B07_toc.xhtml" id="fB07_toc" media-type="application/xhtml+xml"/>
+    <item href="xhtml/B08_lof.xhtml" id="fB08_lof" media-type="application/xhtml+xml"/>
+    <item href="xhtml/B09_ack.xhtml" id="fB09_ack" media-type="application/xhtml+xml"/>
+    <item href="xhtml/C01_chapter.xhtml" id="fC01_chapter" media-type="application/xhtml+xml"/>
+    <item href="xhtml/C02_chapter.xhtml" id="fC02_chapter" media-type="application/xhtml+xml"/>
+    <item href="xhtml/C03_chapter.xhtml" id="fC03_chapter" media-type="application/xhtml+xml"/>
+    <item href="xhtml/C04_chapter.xhtml" id="fC04_chapter" media-type="application/xhtml+xml"/>
+    <item href="xhtml/C05_chapter.xhtml" id="fC05_chapter" media-type="application/xhtml+xml"/>
+    <item href="xhtml/C06_chapter.xhtml" id="fC06_chapter" media-type="application/xhtml+xml"/>
+    <item href="xhtml/C07_chapter.xhtml" id="fC07_chapter" media-type="application/xhtml+xml"/>
+    <item href="xhtml/C08_chapter.xhtml" id="fC08_chapter" media-type="application/xhtml+xml"/>
+    <item href="xhtml/C09_chapter.xhtml" id="fC09_chapter" media-type="application/xhtml+xml"/>
+    <item href="xhtml/C10_chapter.xhtml" id="fC10_chapter" media-type="application/xhtml+xml"/>
+    <item href="xhtml/C11_chapter.xhtml" id="fC11_chapter" media-type="application/xhtml+xml"/>
+    <item href="xhtml/C12_chapter.xhtml" id="fC12_chapter" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Z1_sec_appA.xhtml" id="fZ1_sec_appA" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Z2_sec_appB.xhtml" id="fZ2_sec_appB" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Z3_sec_appC.xhtml" id="fZ3_sec_appC" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Z4_sec_appD.xhtml" id="fZ4_sec_appD" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Z5_sec_appE.xhtml" id="fZ5_sec_appE" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Z6_sec_appF.xhtml" id="fZ6_sec_appF" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Z7_sec_index.xhtml" id="fZ7_sec_index" media-type="application/xhtml+xml"/>
+    <item href="xhtml/nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav"/>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="styles/stylesheet.css" id="stylesheet" media-type="text/css"/>
+    <item href="images/9781134613083.jpg" id="cover-image" media-type="image/jpeg"/>
+    <item href="images/fig4_1.jpg" id="fig4_1" media-type="image/jpeg"/>
+    <item href="images/fig4_2.jpg" id="fig4_2" media-type="image/jpeg"/>
+    <item href="images/fig5_1.jpg" id="fig5_1" media-type="image/jpeg"/>
+    <item href="images/fig5_2.jpg" id="fig5_2" media-type="image/jpeg"/>
+    <item href="images/pub.jpg" id="pub" media-type="image/jpeg"/>
+    <item href="images/tab1.jpg" id="tab1" media-type="image/jpeg"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover" linear="yes"/>
+    <itemref idref="fB03_halftitle"/>
+    <itemref idref="fB04_titlepage"/>
+    <itemref idref="fB05_copyright"/>
+    <itemref idref="fB06_ded"/>
+    <itemref idref="fB07_toc"/>
+    <itemref idref="fB08_lof"/>
+    <itemref idref="fB09_ack"/>
+    <itemref idref="fC01_chapter"/>
+    <itemref idref="fC02_chapter"/>
+    <itemref idref="fC03_chapter"/>
+    <itemref idref="fC04_chapter"/>
+    <itemref idref="fC05_chapter"/>
+    <itemref idref="fC06_chapter"/>
+    <itemref idref="fC07_chapter"/>
+    <itemref idref="fC08_chapter"/>
+    <itemref idref="fC09_chapter"/>
+    <itemref idref="fC10_chapter"/>
+    <itemref idref="fC11_chapter"/>
+    <itemref idref="fC12_chapter"/>
+    <itemref idref="fZ1_sec_appA"/>
+    <itemref idref="fZ2_sec_appB"/>
+    <itemref idref="fZ3_sec_appC"/>
+    <itemref idref="fZ4_sec_appD"/>
+    <itemref idref="fZ5_sec_appE"/>
+    <itemref idref="fZ6_sec_appF"/>
+    <itemref idref="fZ7_sec_index"/>
+  </spine>
+  <guide>
+    <reference href="xhtml/cover.xhtml" title="Cover" type="Cover"/>
+    <reference href="xhtml/B07_toc.xhtml" title="Contents" type="toc"/>
+  </guide>
+</package>

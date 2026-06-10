@@ -1,0 +1,542 @@
+@page
+{
+	margin: 1em;
+}
+body
+{
+	margin: 1em;
+}
+svg
+{
+	height: 98%;
+	width: 100%;
+}
+.halftitle
+{
+	font-size: x-large;
+	margin-top: 1.5em;
+	margin-bottom: 2.5em;
+	text-align: center;
+}
+.seriest
+{
+	font-size: large;
+	margin-top: 2em;
+	margin-bottom: 0.1em;
+	text-indent: 0em;
+}
+.seriesaff
+{
+	margin-top: 1em;
+	margin-bottom: 2.5em;
+	text-indent: 0em;
+}
+.h1
+{
+	font-size: xx-large;
+	margin-top: 1.5em;
+	margin-bottom: 0em;
+	text-align: center;
+}
+.subtitle
+{
+	font-size: x-large;
+	margin-top: 1.5em;
+	margin-bottom: 0em;
+	text-align: center;
+}
+.author
+{
+	font-size: large;
+	margin-top: 3.5em;
+	margin-bottom: 0em;
+	text-align: center;
+}
+.pub
+{
+	margin-top: 6.5em;
+	margin-bottom: 0em;
+	text-align: center;
+}
+.copy1
+{
+	margin-top: 1.5em;
+	margin-bottom: 0.1em;
+	text-indent: 0em;
+}
+.copy
+{
+	margin-top: 1em;
+	margin-bottom: 0.1em;
+	text-indent: 0em;
+}
+.copy1a
+{
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	margin-left: 1em;
+}
+.copy1b
+{
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	margin-left: 1em;
+}
+.copy1c
+{
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	margin-left: 2em;
+}
+.tocfm
+{
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	margin-left: 1.3em;
+}
+.tocfm1
+{
+	margin-top: 1em;
+	margin-bottom: 0.1em;
+	margin-left: 1.3em;
+}
+.tocchap
+{
+	margin-top: 1em;
+	margin-bottom: 0.1em;
+	margin-left: 1.3em;
+	text-indent: -1.3em;
+}
+.tocauthor
+{
+	margin-top: 0.3em;
+	margin-bottom: 0.1em;
+	margin-left: 1.3em;
+}
+.tocpart
+{
+	margin-top: 1em;
+	margin-bottom: 0.1em;
+	text-indent: 0em;
+}
+.dedication
+{
+	margin-top: 3.5em;
+	margin-bottom: 0em;
+	text-align: center;
+}
+.dedication1
+{
+	margin-top: 1.5em;
+	margin-bottom: 0em;
+	text-align: center;
+}
+.h2a
+{
+	font-size: x-large;
+	margin-top: 1.5em;
+	margin-bottom: 3.5em;
+        text-indent: 0em;
+}
+.h2b
+{
+	font-size: x-large;
+	margin-top: 1.5em;
+	margin-bottom: 0em;
+        text-indent: 0em;
+}
+.noindent
+{
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	text-indent: 0em;
+	text-align: justify;
+}
+.noindent1
+{
+	margin-top: 1em;
+	margin-bottom: 0.1em;
+	text-indent: 0em;
+	text-align: justify;
+}
+.indent
+{
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	text-indent: 1em;
+	text-align: justify;
+}
+.h2
+{
+	font-size: x-large;
+	margin-top: 1.5em;
+	margin-bottom: 0em;
+	text-indent: 0em;
+}
+.chap_subttl
+{
+	font-size: large;
+	margin-top: 0.5em;
+	margin-bottom: 2.5em;
+	text-indent: 0em;
+}
+.chapterauthorl
+{
+	font-size: large;
+        margin-top: 0.5em;
+	margin-bottom: 2.5em;
+	text-indent: 0em;
+}
+.chapterauthor
+{
+	font-size: large;
+        margin-top: 1em;
+	margin-bottom: 2.5em;
+	text-indent: 0em;
+}
+.h3
+{
+	font-size: large;
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+	text-indent: 0em;
+}
+.h4
+{
+	font-size: medium;
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+	text-indent: 0em;
+}
+.nl
+{
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	margin-left: 1.5em;
+	text-indent: -1.5em;
+	text-align: justify;
+}
+.nl1
+{
+	margin-top: 1em;
+	margin-bottom: 0.1em;
+	margin-left: 1.5em;
+	text-indent: -1.5em;
+	text-align: justify;
+}
+.nl2
+{
+	margin-top: 0.1em;
+	margin-bottom: 1em;
+	margin-left: 1.5em;
+	text-indent: -1.5em;
+	text-align: justify;
+}
+.nounder
+{
+	text-decoration: none;
+}
+.attrib
+{
+	margin-top: 0.1em;
+	margin-bottom: 1em;
+	text-align: right;
+}
+.quotex
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 1.5em;
+	text-align: justify;
+}
+.quotexx
+{
+	margin-top: 1em;
+	margin-bottom: .1em;
+	margin-left: 1.5em;
+	text-align: justify;
+}
+.quote1
+{
+	margin-top: 1em;
+	margin-bottom: 0.1em;
+	margin-left: 1.5em;
+	text-align: justify;
+}
+.quotein
+{
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	margin-left: 1.5em;
+	text-align: justify;
+	text-indent: 1.2em;
+}
+.quotein2
+{
+	margin-top: 0.1em;
+	margin-bottom: 1em;
+	margin-left: 1.5em;
+	text-align: justify;
+	text-indent: 1.2em;
+}
+.quote
+{
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	margin-left: 1.5em;
+	text-align: justify;
+}
+.quote2
+{
+	margin-top: 0.1em;
+	margin-bottom: 1em;
+	margin-left: 1.5em;
+	text-align: justify;
+}
+.bulla
+{
+	margin-top: 1em;
+	margin-bottom: 0.1em;
+	margin-left: 0.6em;
+	text-indent: -0.6em;
+}
+.bull
+{
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	margin-left: 0.6em;
+	text-indent: -0.6em;
+}
+.bullb
+{
+	margin-top: 0.1em;
+	margin-bottom: 1em;
+	margin-left: 0.6em;
+	text-indent: -0.6em;
+}
+.image
+{
+	margin-top: 1em;
+	margin-bottom: 0.1em;
+	text-indent: 0em;
+}
+.timage
+{
+	margin-top: 0.2em;
+	margin-bottom: 1em;
+	text-indent: 0em;
+}
+.fig_cap
+{
+	margin-top: 0.4em;
+	margin-bottom: 1em;
+	margin-left: 4.3em;
+	text-indent: -4.3em;
+}
+.table_caption
+{
+	margin-top: 1.2em;
+	margin-bottom: 0.3em;
+	margin-left: 4em;
+	text-indent: -4em;
+}
+.fig_cap1
+{
+	margin-top: 0.4em;
+	margin-bottom: 1em;
+	margin-left: 5em;
+	text-indent: -5em;
+}
+.hang
+{
+	margin-top: 1em;
+	margin-bottom: 0.1em;
+	margin-left: 1.3em;
+	text-indent: -0.8em;
+}
+.hang1
+{
+	margin-top: 1em;
+	margin-bottom: 0.1em;
+	margin-left: 1.3em;
+	text-indent: -1.3em;
+}
+.lof
+{
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	margin-left: 1.5em;
+	text-indent: -1.5em;
+}
+.fn
+{
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	margin-left: 1.3em;
+	text-indent: -0.8em;
+	text-align: justify;
+}
+.fn1
+{
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	margin-left: 1.3em;
+	text-indent: -1.3em;
+	text-align: justify;
+}
+.ref
+{
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	margin-left: 1em;
+	text-indent: -1em;
+	text-align: justify;
+}
+.idxlev11
+{
+	margin-top: 1em;
+	margin-bottom: 0.1em;
+	margin-left: 1em;
+	text-indent: -1em;
+}
+.idxlev1
+{
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	margin-left: 1em;
+	text-indent: -1em;
+}
+.bio
+{
+	margin-top: 1em;
+	margin-bottom: 0.1em;
+	margin-left: 1em;
+	text-indent: -1em;
+	text-align: justify;
+}
+.coverimg
+{
+	height: 95%;
+	text-align: center;
+}
+.imagefc
+{
+	width: 95%;
+}
+sup
+{
+	vertical-align: super;
+	font-size: 0.7em;
+	line-height: 70%;
+}
+img
+{
+	max-width: 99%;
+}
+.fquotex
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 2.5em;
+	text-align: justify;
+}
+.verse1
+{
+	margin-top: 1em;
+	margin-bottom: 0.1em;
+	margin-left: 1.5em;
+	text-align: justify;
+}
+.verse
+{
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	margin-left: 1.5em;
+	text-align: justify;
+}
+.chap_subtt2
+{
+	font-size: large;
+	margin-top: 0.5em;
+	margin-bottom: 0.1em;
+	text-indent: 0em;
+}
+.bio
+{
+	font-size: medium;
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	text-indent: -1em;
+}
+.speech
+{
+	margin-top: .1em;
+	margin-bottom: .1em;
+	margin-left: 3.3em;
+	text-indent: -1.7em;
+}
+.speechb
+{
+	margin-top: .1em;
+	margin-bottom: 1em;
+	margin-left: 3.3em;
+	text-indent: -1.7em;
+}
+.speecht
+{
+	margin-top: 1em;
+	margin-bottom: .1em;
+	margin-left: 3.3em;
+	text-indent: -1.7em;
+}
+.speechtb
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 3.3em;
+	text-indent: -1.7em;
+}
+.bull1a
+{
+	margin-top: 1em;
+	margin-bottom: 0.1em;
+	margin-left: 2em;
+	text-indent: -.6em;
+}
+.bull1
+{
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	margin-left: 2em;
+	text-indent: -.6em;
+}
+.bull1b
+{
+	margin-top: 0.1em;
+	margin-bottom: 1em;
+	margin-left: 2em;
+	text-indent: -0.6em;
+}
+.step
+{
+	margin-top: 0.1em;
+	margin-bottom: .1em;
+	margin-left: 3.2em;
+	text-indent: -3.2em;
+}
+/* Bilingual translation styles */
+.trans-zh {
+    color: #1a4f8a;
+    font-style: normal;
+    border-left: 3px solid #b0c8e8;
+    padding-left: 0.5em;
+    margin-top: 0.2em;
+    margin-bottom: 0.8em;
+}
+h2.trans-zh, h3.trans-zh {
+    color: #1a4f8a;
+    border-left: 4px solid #b0c8e8;
+    padding-left: 0.4em;
+    margin-top: 0.2em;
+}
