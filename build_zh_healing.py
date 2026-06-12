@@ -46,21 +46,35 @@ def process_content_file(src_path, dst_path):
     """Transform bilingual file -> Chinese-only file. Returns first Chinese h2 text."""
     lines = open(src_path, encoding="utf-8").read().split("\n")
     out = []
-    for line in lines:
+    i, n = 0, len(lines)
+    while i < n:
+        line = lines[i]
         s = line.lstrip()
         if "trans-zh" in line:
             out.append(clean_zh_line(line))
+            i += 1
             continue
-        # English headings -> drop
-        if s.startswith("<h2") or s.startswith("<h3"):
+        # English headings (h1-h4) -> drop the whole element (may span lines)
+        mh = re.match(r"<(h1|h2|h3|h4)\b", s)
+        if mh:
+            tag = mh.group(1)
+            while i < n and f"</{tag}>" not in lines[i]:
+                i += 1
+            i += 1  # skip the line carrying the closing tag
             continue
-        # paragraphs: drop if they carry real prose text
+        # English <p> -> drop whole element if it carries prose; keep anchor-only/empty
         if s.startswith("<p"):
-            if not is_only_anchors(line):
-                continue  # English prose paragraph
-            out.append(line)   # anchor-only / empty
+            j = i
+            while j < n and "</p>" not in lines[j]:
+                j += 1
+            block = "\n".join(lines[i:j + 1])
+            if is_only_anchors(block):
+                out.extend(lines[i:j + 1])   # anchor-only / empty paragraph: keep
+            # else English prose paragraph: drop entire (possibly multi-line) block
+            i = j + 1
             continue
         out.append(line)
+        i += 1
 
     text = "\n".join(out)
     # Localize per-file <title>
@@ -93,7 +107,7 @@ CHAPTER_TITLES = {
     "C02_chapter.xhtml": "第1章 创伤的神经生物学遗产：我们如何走向碎裂",
     "C03_chapter.xhtml": "第2章 理解各部分，理解创伤性反应",
     "C04_chapter.xhtml": "第3章 来访者与治疗师角色的转变",
-    "C05_chapter.xhtml": "第4章 学会看见我们的"自我"：与各部分工作的导论",
+    "C05_chapter.xhtml": "第4章 学会看见我们的“自我”：与各部分工作的导论",
     "C06_chapter.xhtml": "第5章 与各部分为友：播下慈悲的种子",
     "C07_chapter.xhtml": "第6章 治疗的复杂性：创伤性依恋",
     "C08_chapter.xhtml": "第7章 与自杀、自我毁灭、饮食障碍及成瘾部分工作",
